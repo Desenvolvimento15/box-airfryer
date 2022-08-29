@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font: 100%;
+    font-size: 100%;
     box-sizing: border-box;
     width: 100%;
 }
@@ -25,45 +25,40 @@
     main{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}
 
     .box-inteiro{
-        width: 100%;
-        height: 22rem;
-        border: solid #ff6900 0.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 3rem;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
     }
     
     .box01{
-        background: #f1f1f1;
-        width: 30rem;
-        height: 13rem;
-        border:solid #ff0000 0.5rem;
-        margin: 1rem;
-
+    background: #f1f1f1;
+    width: 40rem;
+    height: 25rem;
+    margin: 1rem;
     }
 
     .box02{
-        background-color: #ff6900;
-        width: 16.125rem;
-        height: 13rem;
-        border:solid #ff0000 0.5rem;
-
+    width: 25rem;
+    height: 25rem;
     }
 
     .box03{
-
-
-        background-color: #ff0000;
-        width: 16.125rem;
-        height: 13rem;
-        border:solid #ff0000 0.5rem;
-        margin: 1rem;
-
+    width: 25rem;
+    height: 25rem;
+    margin: 1rem;
     }
 
+    .flex-conteudo{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    }
     
-
 
     .fundo{
     display: flex;
@@ -76,6 +71,12 @@
     
     .topo{
     width: 100%;
+    background: #ff6900;
+    }
+
+    .topo1{
+    width: 100%;
+    height: 3rem;
     background: #ff6900;
     }
     
@@ -113,24 +114,12 @@
     padding: 1rem;
     }
     
-    img{width: 31rem;}
+    .img{width: 31rem;}
+    .img_01{width: 20rem;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
+  
     
 }
 
