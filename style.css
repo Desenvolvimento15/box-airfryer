@@ -6,21 +6,38 @@
     width: 100%;
 }
 
+@font-face {font-family: CamphorProForXiaoMi-Regular; src: url(./fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(./fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Medium; src: url(./fonts/CamphorProForXiaoMi-Medium.woff) format("woff")}
+
+.f-heavy {font-family: CamphorProForXiaoMi-Heavy, sans-serif; font-weight: 900}
+.f-regular {font-family: CamphorProForXiaoMi-Regular, sans-serif}
+.f-bold {font-family: CamphorProForXiaoMi-Bold, sans-serif; font-weight: 700}
+.f-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
+
 @media screen and (min-width:1024px) {
+
+    .titulo_xiaomi{color: #000; font-size:3rem; padding-bottom: 1rem; text-align: left;}
+    .subtitulo_xiaomi{color: #ff6900; font-size: 3rem; text-align: left;}
+    .p_xiaomi{color: rgb(168, 168, 168); font-size: 3rem; text-align: left;}
+    .p_box{font-size:3rem;}
+
+    main{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}
 
     .box-inteiro{
         width: 100%;
-        height: 50rem;
+        height: 22rem;
         border: solid #ff6900 0.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 3rem;
     }
     
     .box01{
         background: #f1f1f1;
-        width: 516px;
-        height: 208px;
+        width: 30rem;
+        height: 13rem;
         border:solid #ff0000 0.5rem;
         margin: 1rem;
 
@@ -28,8 +45,8 @@
 
     .box02{
         background-color: #ff6900;
-        width: 258px;
-        height: 208px;
+        width: 16.125rem;
+        height: 13rem;
         border:solid #ff0000 0.5rem;
 
     }
@@ -38,14 +55,79 @@
 
 
         background-color: #ff0000;
-        width: 258px;
-        height: 208px;
+        width: 16.125rem;
+        height: 13rem;
         border:solid #ff0000 0.5rem;
         margin: 1rem;
 
     }
 
     
+
+
+    .fundo{
+    display: flex;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    }
+    
+    .topo{
+    width: 100%;
+    background: #ff6900;
+    }
+    
+    .conteudo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    }
+
+    .title{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    }
+        
+    .timer{
+    margin: 1rem;
+    background-color: #ff6900;
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    padding: 2.5rem;
+    }
+    
+    .timer01{
+    font-family: 'CamphorProForXiaoMi-Bold';
+    font-size: 4rem;
+    }
+    
+    .text{
+    width: 25rem;
+    padding: 1rem;
+    }
+    
+    img{width: 31rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
    
