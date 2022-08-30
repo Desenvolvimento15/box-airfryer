@@ -12,7 +12,7 @@
 @media screen and (min-width:1024px) {
 
     .titulo_xiaomi{color: #000; font-size:3rem; padding-bottom: 1rem; text-align: left;}
-    .titulo_xiaomi-01{color: #000; font-size: 3.2rem; padding-bottom: 1rem; text-align: left; margin-left: 8rem;}
+    .titulo_xiaomi-01{color: #000; font-size: 3.2rem; text-align: left; padding-bottom: 1rem;}
     .subtitulo_xiaomi{color: #ff6900; font-size: 3rem; text-align: left;}
     .p_xiaomi{color: rgb(168, 168, 168); font-size: 3rem; text-align: left;}
     .p_box{font-size:3rem;}
@@ -107,13 +107,20 @@
     width: 25rem;
     padding: 1rem;
     }
+
+    .text01{
+    width: 21rem;
+    padding: 1rem;
+    margin-left: 7rem;
+    margin-top: -4rem;
+    }
     
     .img{width: 31rem;}
     .img_01{width: 36rem; margin-top: -7rem;}
     .display{padding: 1rem;}
 
   
-    
+
     
 }
 
