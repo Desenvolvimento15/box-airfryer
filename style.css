@@ -21,16 +21,15 @@
 
     .box-inteiro{
     width: 100%;
-    height: 50rem;
+    height: 35rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
     }
     
     .box01{
-    background: #f1f1f1;
-    width: 40rem;
+
+    width: 60rem;
     height: 30rem;
     margin: 1rem;
     }
@@ -116,7 +115,6 @@
     }
     
     .img{width: 31rem;}
-    .img_01{width: 36rem; margin-top: -7rem;}
     .display{padding: 1rem;}
 
   
