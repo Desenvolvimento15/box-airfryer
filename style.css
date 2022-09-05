@@ -1,7 +1,7 @@
 *{padding: 0; margin: 0; font-size: 100%; box-sizing: border-box; width: 100%;}
 
 @font-face {font-family: CamphorProForXiaoMi-Regular; src: url(./fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
-@font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(./fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Bold; src: url(./fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
 @font-face {font-family: CamphorProForXiaoMi-Medium; src: url(./fonts/CamphorProForXiaoMi-Medium.woff) format("woff")}
 
 .f-heavy {font-family: CamphorProForXiaoMi-Heavy, sans-serif; font-weight: 900}
