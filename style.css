@@ -1,5 +1,3 @@
-*{padding: 0; margin: 0; font-size: 100%; box-sizing: border-box; width: 100%;}
-
 @font-face {font-family: CamphorProForXiaoMi-Regular; src: url(./fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
 @font-face {font-family: CamphorProForXiaoMi-Bold; src: url(./fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
 @font-face {font-family: CamphorProForXiaoMi-Medium; src: url(./fonts/CamphorProForXiaoMi-Medium.woff) format("woff")}
@@ -10,7 +8,7 @@
 .f-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
 
 @media screen and (min-width:1024px) {
-
+    *{padding: 0; margin: 0; font-size: 100%; box-sizing: border-box; width: 100%;}
     .titulo_xiaomi{color: #000; font-size:3rem; padding-bottom: 1rem; text-align: left;}
     .titulo_xiaomi-01{color: #000; font-size: 3.2rem; text-align: left; padding-bottom: 1rem;}
     .subtitulo_xiaomi{color: #ff6900; font-size: 3rem; text-align: left;}
@@ -20,31 +18,34 @@
     main{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}
 
     .box-inteiro{
-    width: 100%;
-    height: 35rem;
+       /* width: 100%; */
+    /* height: 35rem; */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 0.5rem solid; */
+    flex-direction: row;
+    align-content: center;
     }
     
+    
     .box01{
-
     width: 60rem;
-    height: 30rem;
+  
     margin: 1rem;
     }
 
     .box02{
-    width: 25rem;
-    height: 30rem;
+    width: 30rem;
+
     }
 
     .box03{
-    width: 25rem;
-    height: 30rem;
+    width: 30rem;
+
     margin: 1rem;
     }
-
+/*********************************************************************/
     .flex-conteudo{
     display: flex;
     flex-direction: row;
@@ -124,5 +125,7 @@
 
 
 @media screen and (max-width:768px) {
+
+    *{padding: 0; margin: 0; font-size: 100%; box-sizing: border-box; width: 100%;}
     
 }
