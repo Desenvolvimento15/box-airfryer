@@ -25,7 +25,7 @@
     align-items: center;
     flex-direction: row;
     align-content: center;
-    }W
+    }
     
     .box01{
     width: 60rem;
@@ -141,7 +141,6 @@
     .box03{
     margin: 1rem;
     }
-
 
     .fundo{
     display: flex;
