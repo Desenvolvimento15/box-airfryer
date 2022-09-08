@@ -17,7 +17,7 @@
     .p_xiaomi{color: rgb(168, 168, 168); font-size: 3rem; text-align: left;}
     .p_box{font-size:3rem;}
 
-    main{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}
+    .root_xiaomi{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}
 
     .box-inteiro{
     display: flex;
