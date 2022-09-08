@@ -116,12 +116,12 @@
 }
 
 @media screen and (min-width:769px) and (max-width:1023px){
+    .root_xiaomi{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}
 }
 
 @media screen and (max-width:768px) {
 
-    main{ justify-content: center; align-items: center; text-align: center; overflow: hidden;}
-
+    .root_xiaomi{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}
     .titulo_xiaomi{color: #000; font-size:2.1rem; padding-bottom: 1rem;}
     .subtitulo_xiaomi{color: #ff6900; font-size: 2rem;}
     .p_xiaomi{color: rgb(168, 168, 168); font-size: 2rem;}
