@@ -112,6 +112,10 @@
     
     .img{width: 31rem;}
     .display{padding: 1rem;}
+
+    .mobile-xiaomi{
+        display: none;
+    }
     
 }
 
@@ -191,4 +195,8 @@
     }
     
     img{width: 20rem;}
+
+    .desktop-xiaomi{
+        display: none;
+    }
 }
