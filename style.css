@@ -121,6 +121,26 @@
 
 @media screen and (min-width:769px) and (max-width:1023px){
 .root_xiaomi{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}}
+.mobile-xiaomi{display: none;}
+.box-inteiro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:768px) {
 
