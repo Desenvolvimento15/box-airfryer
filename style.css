@@ -120,8 +120,7 @@
 }
 
 @media screen and (min-width:769px) and (max-width:1023px){
-    .root_xiaomi{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}
-}
+.root_xiaomi{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}}
 
 @media screen and (max-width:768px) {
 
