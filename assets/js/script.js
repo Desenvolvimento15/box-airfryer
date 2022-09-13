@@ -37,10 +37,10 @@ document.getElementById("timer").innerHTML =   days + hours + ":"+ minutes + ":"
 $(function(){
   $(".galeria").slick({
   
-   arrows: false,
+   arrows: true,
    autoplay:true,
-   slidesToShow:1,
-   slidesToScroll: 1,
+   slidesToShow:2,
+   slidesToScroll: 2,
    autoplaySpeed: 5000,
 });
 });
