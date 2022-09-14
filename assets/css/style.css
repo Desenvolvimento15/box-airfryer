@@ -1,9 +1,9 @@
 *{padding: 0;margin: 0;box-sizing: border-box; font-size: 100%;}
 
-@font-face{font-family:'Camphor Pro Bold';src:url("./fonts/CamphorProForXiaoMi-Bold.woff");font-weight:bold}
-@font-face{font-family:'Camphor Pro Heavy';src:url("./fonts/CamphorProForXiaoMi-Heavy.woff");font-weight:900}
-@font-face{font-family:'Camphor Pro Medium';src:url("./fonts/CamphorProForXiaoMi-Medium.woff");font-weight:500}
-@font-face{font-family:'Camphor Pro Thin';src:url("./fonts/CamphorProForXiaoMi-Thin.woff");font-weight:200}
+@font-face{font-family:'CamphorProForXiaoMi-Bold';src:url("./fonts/CamphorProForXiaoMi-Bold.woff");font-weight:bold}
+@font-face{font-family:'CamphorProForXiaoMi-Heavy';src:url("./fonts/CamphorProForXiaoMi-Heavy.woff");font-weight:900}
+@font-face{font-family:'CamphorProForXiaoMi-Medium';src:url("./fonts/CamphorProForXiaoMi-Medium.woff");font-weight:500}
+@font-face{font-family:'CamphorProForXiaoMi-Heavy';src:url("./fonts/CamphorProForXiaoMi-Thin.woff");font-weight:200}
 
 .xiaomi-heavy {font-family: CamphorProForXiaoMi-Heavy, sans-serif; font-weight: 900}
 .xiaomi-regular {font-family: CamphorProForXiaoMi-Regular, sans-serif}
@@ -16,7 +16,7 @@
     .titulo_xiaomi-Black{color: #000; font-size: 3.2rem; text-align: left; padding-bottom: 1rem;}
     .subtitulo_xiaomi{color: #ff6900; font-size: 3rem; text-align: left;}
     .p_xiaomi{color: rgb(168, 168, 168); font-size: 3rem; text-align: left;}
-    .p_box{font-size:3rem;}
+    .p_box{font-size:2rem; text-align: center;}
 
    .title-xiaomi-white{
     padding: 1rem;
@@ -89,7 +89,7 @@
     }
     
     .timer01{
-    font-family: 'Camphor Pro Bold';
+    font-family:'CamphorProForXiaoMi-Bold';
     font-size: 4rem;
     }
     
@@ -149,7 +149,7 @@
     }
     
     .timer01{
-    font-family: 'Camphor Pro Bold';
+    font-family: 'CamphorProForXiaoMi-Bold';
     font-size: 2rem;
     }
     
@@ -158,7 +158,7 @@
     padding: 1REM;
     }
     
-    img{width: 20rem;}
+    .img{width: 20rem;}
 
 
 }
@@ -168,7 +168,7 @@
     .titulo_xiaomi{color: #000; font-size:2.1rem; padding-bottom: 1rem;}
     .subtitulo_xiaomi{color: #ff6900; font-size: 2rem;}
     .p_xiaomi{color: rgb(168, 168, 168); font-size: 2rem;}
-    .p_box{font-size:1rem;}
+    .p_box{font-size:1rem; text-align: center;}
 
     .title-xiaomi-white{
     padding: 1rem;
@@ -223,16 +223,16 @@
     }
     
     .timer01{
-    font-family: 'Camphor Pro Bold';
+    font-family:'CamphorProForXiaoMi-Bold';
     font-size: 2rem;
+    text-align: center;
     }
     
     .text{
     width: 20rem;
-    padding: 1REM;
+    padding: 1rem;
     }
     
-    img{width: 20rem;}
-
+    .img{width: 20rem;}
     .desktop-xiaomi{display: none;}
 }
