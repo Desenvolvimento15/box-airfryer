@@ -1,15 +1,20 @@
-*{padding: 0; margin: 0; font-size: 100%; box-sizing: border-box; width: 100%;}
+@font-face{font-family:'Camphor Pro';src:url("https://www.mibrasil.com.br/Custom/Content/Themes/xiaomi/CSS/Fontes/Camphor/CamphorPro-Regular.otf");font-weight:normal}
+@font-face{font-family:'Camphor Pro Bold';src:url("https://www.mibrasil.com.br/Custom/Content/Themes/xiaomi/CSS/Fontes/Camphor/CamphorPro-Bold.otf");font-weight:bold}
+@font-face{font-family:'Camphor Pro Heavy';src:url("https://www.mibrasil.com.br/Custom/Content/Themes/xiaomi/CSS/Fontes/Camphor/CamphorPro-Heavy.otf");font-weight:900}
+@font-face{font-family:'Camphor Pro Light';src:url("https://www.mibrasil.com.br/Custom/Content/Themes/xiaomi/CSS/Fontes/Camphor/CamphorPro-Light.otf");font-weight:300}
+@font-face{font-family:'Camphor Pro Medium';src:url("https://www.mibrasil.com.br/Custom/Content/Themes/xiaomi/CSS/Fontes/Camphor/CamphorPro-Medium.otf");font-weight:500}
+@font-face{font-family:'Camphor Pro Thin';src:url("https://www.mibrasil.com.br/Custom/Content/Themes/xiaomi/CSS/Fontes/CamphorPro-Thin.otf");font-weight:200}
 
-@font-face {font-family: CamphorProForXiaoMi-Regular; src: url(./fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
-@font-face {font-family: CamphorProForXiaoMi-Bold; src: url(./fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
-@font-face {font-family: CamphorProForXiaoMi-Medium; src: url(./fonts/CamphorProForXiaoMi-Medium.woff) format("woff")}
 
-.f-heavy {font-family: CamphorProForXiaoMi-Heavy, sans-serif; font-weight: 900}
-.f-regular {font-family: CamphorProForXiaoMi-Regular, sans-serif}
-.f-bold {font-family: CamphorProForXiaoMi-Bold, sans-serif; font-weight: 700}
-.f-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
+.xiaomi-heavy {font-family: CamphorProForXiaoMi-Heavy, sans-serif; font-weight: 900}
+.xiaomi-regular {font-family: CamphorProForXiaoMi-Regular, sans-serif}
+.xiaomi-bold {font-family: CamphorProForXiaoMi-Bold, sans-serif; font-weight: 700}
+.xiaomi-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
 
 @media screen and (min-width:1024px){
+    .root_xiaomi{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}
+	
+	 .box-content_xiaomi{display: flex; justify-content: center; align-items: center; text-align: center;}
 
     .titulo_xiaomi{color: #000; font-size:3rem; padding-bottom: 1rem; text-align: left;}
     .titulo_xiaomi-01{color: #000; font-size: 3.2rem; text-align: left; padding-bottom: 1rem;}
@@ -17,8 +22,7 @@
     .p_xiaomi{color: rgb(168, 168, 168); font-size: 3rem; text-align: left;}
     .p_box{font-size:3rem;}
 
-    .root_xiaomi{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}
-
+   
     .box-inteiro{
     display: flex;
     justify-content: center;
@@ -28,14 +32,16 @@
     }
     
     .box01{
+    width: 60rem;
     margin: 1rem;
     }
 
     .box02{
-    margin: 1rem;
+    width: 30rem;
     }
 
     .box03{
+    width: 30rem;
     margin: 1rem;
     }
 
@@ -60,12 +66,6 @@
     width: 100%;
     background: #ff6900;
     }
-
-    .topo1{
-    width: 100%;
-    height: 3rem;
-    background: #ff6900;
-    }
     
     .conteudo{
     display: flex;
@@ -76,7 +76,7 @@
     flex-wrap: nowrap;
     }
 
-    .title{
+    .title_xiaomi{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -92,41 +92,81 @@
     }
     
     .timer01{
-    font-family: 'CamphorProForXiaoMi-Bold';
+    font-family: 'Camphor Pro Bold';
     font-size: 4rem;
     }
     
     .text{
-    width: 25rem;
+    width: 27rem;
     padding: 1rem;
     }
-
-    .text01{
-    width: 21rem;
-    padding: 1rem;
-    margin-left: 7rem;
-    margin-top: -4rem;
-    }
-    
+	
     .img{width: 31rem;}
     .display{padding: 1rem;}
 
     .mobile-xiaomi{
-    display: none;
+        display: none;
     }
     
 }
 
 @media screen and (min-width:769px) and (max-width:1023px){
-.root_xiaomi{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}}
+.root_xiaomi{display: flex; justify-content: center; align-items: center; text-align: center; flex-direction: column;}
 .mobile-xiaomi{display: none;}
-.box-inteiro{
+.titulo_xiaomi{color: #000; font-size:2.1rem; padding-bottom: 1rem;}
+    .subtitulo_xiaomi{color: #ff6900; font-size: 2rem;}
+    .p_xiaomi{color: rgb(168, 168, 168); font-size: 2rem;}
+    .p_box{font-size:1rem;}
+
+    .fundo{
     display: flex;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    }
+    
+    .topo{
+    width: 100%;
+    background: #ff6900;
+    }
+    
+    .conteudo{
+    display: flex;
+    align-content: center;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    align-content: center;
+    flex-wrap: nowrap;
     }
+        
+    .timer{
+    margin-bottom: 1.3rem; 
+    margin: 1rem;
+    margin-top: 1.3rem;
+    background-color: #ff6900;
+    height: 9rem;
+    color: #fff;
+    border-radius: 1rem;
+    font-size: 3rem;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    padding: 2.5rem;
+    }
+    
+    .timer01{
+    font-family: 'CamphorProForXiaoMi-Bold';
+    font-size: 2rem;
+    }
+    
+    .text{
+    width: 20rem;
+    padding: 1REM;
+    }
+    
+    .img{width: 20rem;}
+
+}
 
 
 
@@ -192,7 +232,7 @@
     }
     
     .timer01{
-    font-family: 'CamphorProForXiaoMi-Bold';
+    font-family: 'Camphor Pro Bold';
     font-size: 2rem;
     }
     
@@ -201,7 +241,7 @@
     padding: 1REM;
     }
     
-    img{width: 20rem;}
+    .img{width: 20rem;}
 
     .desktop-xiaomi{
         display: none;
